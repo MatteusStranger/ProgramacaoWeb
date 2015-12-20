@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Using console.log()</title>
+        <title>Using document.write()</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/bootstrap.css" rel="stylesheet"/>
@@ -15,13 +15,9 @@ and open the template in the editor.
     </head>
     <body>
         <div align="center">
-            <h1>My first web page</h1>
-            <p>My first paragraph</p>
-            <p>Activate debugging in your browser (Chrome, IE, Firefox) with F12, and select 
-                "Console" in the debugger menu.</p>
+            <h1>Using document.write()</h1>
+            <p id="demo">My first paragraph.</p>
+            <button class="btn btn-default" onclick="document.write(45+7)">Try it</button>
         </div>
-        <script type=text/javascript>
-            console.log(54+7);
-        </script>
     </body>
 </html>
