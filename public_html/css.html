@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div align="center">
+            <h1>What JavaScript can do?</h1>
+            <p id="demo">JavaScript can change the style of an HTML element.</p>
+            <script type="text/javascript">
+                function myFunction(){
+                    var x = document.getElementById("demo");
+                    x.style.fontSize = "25px";
+                    x.style.color = "red";
+                }
+            </script>
+            <button class="btn btn-default" onclick="myFunction()">
+                Click me!
+            </button>
+        </div>
+    </body>
+</html>
